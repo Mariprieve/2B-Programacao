@@ -5,22 +5,38 @@
     --rosa-escuro: #ff8fab;
     --rosa-mais-escuro: #fb6f92;
 }
-
 .cabecalho{
     background-color: var(--rosa);
     display: flex;
     justify-content: space-between;
-   
-} 
+}
 .menu-item{
-        display: inline-block;
-        padding: 5px 20px;
-        margin-top: 30px;
-        color:black;
-        font-size: 20px;
-    }
+    display: inline-block;
+    padding: 5px;
+    margin-top: 35px;
+    color: black;
+    font-size: 30px;
 
+}
 .logo {
-    width: 7%;
-    margin: 10px;
+    width: 5%;
+    margin: 15px;
+
+}
+
+.principal{
+    background-color: var(--rosa-mais-claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal_titulo{
+    font-size: 60px;
+}
+.principal_texto{
+    padding: 5px;
+    font-size: 30px;
+}
+.principal_imagem{
+    width: 40%;
 }
